@@ -52,3 +52,7 @@ body {
   color: #fff; }
   #video-play a {
     color: white; }
+
+footer#main-footer {
+  background: #000;
+  color: #fff; }

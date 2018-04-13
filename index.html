@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/bootstrap.css">
     <link rel="stylesheet" href="src/css/style.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
 </head>
 
 
@@ -183,6 +184,91 @@
     </section>
 
 
+    <!-- photo gallery-->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Photo Gallery</h1>
+            <p class="text-center">Check out our photos</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox"
+                    data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/1" class="img-fluid" >
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox"
+                       data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/2" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox"
+                       data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/3" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/4" class="img-fluid" >
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/5" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="http://lorempixel.com/400/400/business/6" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--newsletter section-->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Signup For Our Newsletter</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa dolor ea eligendi explicabo fugit laudantium quaerat quibusdam veritatis vero.</p>
+
+                    <form  class="form-inline justify-content-center">
+                        <label class="sr-only" for="name">Name </label>
+                        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
+
+                        <label class="sr-only" for="email">Email</label>
+                        <input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright 2018 &copy; </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
     <!--video modal-->
     <div class="modal fade" id="videoModal">
         <div class="modal-dialog">
@@ -196,11 +282,23 @@
     </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/popper.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/navbar-fixed.js"></script>
     <script src="src/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 
     <script src="https://cdn.ckeditor.com/4.9.1/standard/ckeditor.js"></script>
     <script>

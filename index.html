@@ -161,10 +161,46 @@
 
 
 
+    <!-- Video play section-->
+    <section id="video-play">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container p-5">
+                        <a class="video"
+                           href="#"
+                           data-video="https://www.youtube.com/embed/hY7m5jjJ9mM"
+                           data-toggle="modal"
+                           data-target="#videoModal"
+                        >
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <h1>See What we Do</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--video modal-->
+    <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/popper.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/navbar-fixed.js"></script>
+    <script src="src/js/main.js"></script>
 
     <script src="https://cdn.ckeditor.com/4.9.1/standard/ckeditor.js"></script>
     <script>
@@ -174,3 +210,4 @@
 
 </body>
 </html>
+

@@ -40,3 +40,15 @@ body {
 .dark-overlay {
   width: 100%;
   height: 100%; }
+
+#video-play {
+  position: relative;
+  min-hight: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: -300px;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: white; }
